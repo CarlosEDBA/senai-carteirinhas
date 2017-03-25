@@ -1,0 +1,23 @@
+{
+  "name": "Carteirinhas",
+  "version": "2.0.0",
+  "description": "Gerador de carteirinhas desenvolvido para o SENAI Boqueirão.",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "electron src/main.js"
+  },
+  "keywords": [
+    "SENAI",
+    "Boqueirão",
+    "Gerador",
+    "Carteirinhas"
+  ],
+  "author": "Carlos Eduardo (carlosedba@outlook.com)",
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "electron-prebuilt": "^0.36.0"
+  },
+  "dependencies": {
+    "node-xlsx": "^0.7.1"
+  }
+}

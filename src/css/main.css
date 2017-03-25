@@ -1,0 +1,258 @@
+* {
+	user-select: none;
+	-webkit-user-select: none;
+}
+
+body {
+	display: block;
+	position: relative;
+	width: 100%;
+	height: 100vh;
+	margin: 0;
+	padding: 0;
+	background-color: rgba(0, 0, 0, 0.05);
+	overflow: hidden;
+}
+
+.wrapper {
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: space-between;
+	align-items: flex-start;
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+
+.wrapper .header {
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-between;
+	align-items: center;
+	position: relative;
+	width: 100%;
+	height: auto;
+	margin: 0;
+	padding: 15px 0 15px 0;
+	color: #fff;
+	background-color: #5C6BC0;
+	-webkit-box-shadow: 2px 2px 10px 1px rgba(0, 0, 0, 0.1);
+	-moz-box-shadow:    2px 2px 10px 1px rgba(0, 0, 0, 0.1);
+	box-shadow:         2px 2px 10px 1px rgba(0, 0, 0, 0.1);
+}
+
+/*
+.wrapper .header::before {
+	content: '';
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 3px;
+	height: 100%;
+	background-color: #fff;
+}
+*/
+
+.header .title {
+	display: block;
+	position: relative;
+	font: 300 18px 'Open Sans', sans-serif;
+	margin-left: 25px;
+}
+
+.header .logo {
+	height: 35px;
+	margin-right: 25px;
+}
+
+.wrapper .content {
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: flex-start;
+	align-items: flex-start;
+	position: relative;
+	width: 100%;
+	height: auto;
+}
+
+.svg-wrapper {
+	display: block;
+	position: relative;
+	width: auto;
+	height: auto;
+}
+
+.svg-wrapper svg {
+	display: block;
+	position: relative;
+	width: 100%;
+	height: auto;
+}
+
+.steps {
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-around;
+	align-items: center;
+	position: relative;
+	width: 100%;
+	height: auto;
+	margin: 50px 0 25px 0;
+}
+
+.steps .step {
+	cursor: pointer;
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	width: 150px;
+	height: auto;
+	padding: 25px 0 25px 0;
+	border: none;
+	background-color: transparent;
+}
+
+.steps .step:hover {
+	background-color: rgba(255, 255, 255, 1);
+}
+
+.steps .step .svg-wrapper {
+	width: 25px;
+	height: auto;
+}
+
+.steps .step .step-title {
+	display: block;
+	position: relative;
+	margin: 25px 0 0 0;
+	font: 300 16px 'Open Sans', sans-serif;
+}
+
+.options {
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-around;
+	align-items: center;
+	position: relative;
+	width: 100%;
+	height: auto;
+}
+
+.options .option {
+	cursor: pointer;
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	width: 150px;
+	height: 150px;
+	padding: 25px 0 25px 0;
+	border: none;
+	background-color: transparent;
+}
+
+.options .option:hover {
+	background-color: rgba(255, 255, 255, 1);
+}
+
+.options .option .svg-wrapper {
+	width: auto;
+	height: 35px;
+}
+
+.options .option .svg-wrapper svg {
+	width: auto;
+	height: 100%;
+}
+
+.options .option .option-title {
+	display: block;
+	position: relative;
+	width: 100px;
+	margin: 25px 0 0 0;
+	font: 300 16px 'Open Sans', sans-serif;
+}
+
+.actions {
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: flex-start;
+	align-items: flex-start;
+	position: relative;
+	width: 100%;
+	height: auto;
+	margin: 25px 0 0 0;
+}
+
+.actions .btn-continue,
+.actions .btn-gerar {
+	margin: 0 0 0 25px;
+}
+
+.footer {
+	display: block;
+	position: relative;
+	width: 100%;
+	height: auto;
+	margin: 0 0 25px 0;
+}
+
+.footer::before {
+	content: '';
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 5px;
+	height: 110%;
+	background-color: #5C6BC0;
+}
+
+.footer .dev {
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: center;
+	align-items: flex-start;
+	position: relative;
+	width: 100%;
+	height: auto;
+	margin: 0 0 0 35px;
+}
+
+.footer .dev-message {
+	font-size: 14px;
+	font-family: 'Hammersmith One', sans-serif;
+	word-spacing: -1px;
+}
+
+.footer .dev-email {
+	font-size: 12px;
+	font-weight: 400;
+	font-family: 'Open Sans', sans-serif;
+	user-select: all;
+	-webkit-user-select: all;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

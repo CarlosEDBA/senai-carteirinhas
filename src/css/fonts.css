@@ -1,0 +1,235 @@
+/**
+ * Roboto
+ * 
+ */
+@font-face {
+	font-family: 'Roboto';
+	src: url('../fonts/roboto/Roboto-Thin.ttf') format('truetype');
+	font-weight: 100;
+	font-style: normal;
+}
+ 
+@font-face {
+	font-family: 'Roboto';
+	src: url('../fonts/roboto/Roboto-ThinItalic.ttf') format('truetype');
+	font-weight: 100;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Roboto';
+	src: url('../fonts/roboto/Roboto-Light.ttf') format('truetype');
+	font-weight: 300;
+	font-style: normal;
+}
+ 
+@font-face {
+	font-family: 'Roboto';
+	src: url('../fonts/roboto/Roboto-LightItalic.ttf') format('truetype');
+	font-weight: 300;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Roboto';
+	src: url('../fonts/roboto/Roboto-Regular.ttf') format('truetype');
+	font-weight: 400;
+	font-style: normal;
+}
+ 
+@font-face {
+	font-family: 'Roboto';
+	src: url('../fonts/roboto/Roboto-Italic.ttf') format('truetype');
+	font-weight: 400;
+	font-style: italic;
+}
+ 
+@font-face {
+	font-family: 'Roboto';
+	src: url('../fonts/roboto/Roboto-Medium.ttf') format('truetype');
+	font-weight: 500;
+	font-style: normal;
+}
+ 
+@font-face {
+	font-family: 'Roboto';
+	src: url('../fonts/roboto/Roboto-MediumItalic.ttf') format('truetype');
+	font-weight: 500;
+	font-style: italic;
+} 
+@font-face {
+	font-family: 'Roboto';
+	src: url('../fonts/roboto/Roboto-Bold.ttf') format('truetype');
+	font-weight: 700;
+	font-style: normal;
+}
+ 
+@font-face {
+	font-family: 'Roboto';
+	src: url('../fonts/roboto/Roboto-BoldItalic.ttf') format('truetype');
+	font-weight: 700;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Roboto';
+	src: url('../fonts/roboto/Roboto-Black.ttf') format('truetype');
+	font-weight: 900;
+	font-style: normal;
+}
+ 
+@font-face {
+	font-family: 'Roboto';
+	src: url('../fonts/roboto/Roboto-BlackItalic.ttf') format('truetype');
+	font-weight: 900;
+	font-style: italic;
+}
+
+/**
+ * Open Sans
+ * 
+ */
+@font-face {
+	font-family: 'Open Sans';
+	src: url('../fonts/opensans/OpenSans-Light.ttf') format('truetype');
+	font-weight: 300;
+	font-style: normal;
+}
+ 
+@font-face {
+	font-family: 'Open Sans';
+	src: url('../fonts/opensans/OpenSans-LightItalic.ttf') format('truetype');
+	font-weight: 300;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Open Sans';
+	src: url('../fonts/opensans/OpenSans-Regular.ttf') format('truetype');
+	font-weight: 400;
+	font-style: normal;
+}
+ 
+@font-face {
+	font-family: 'Open Sans';
+	src: url('../fonts/opensans/OpenSans-Italic.ttf') format('truetype');
+	font-weight: 400;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Open Sans';
+	src: url('../fonts/opensans/OpenSans-Semibold.ttf') format('truetype');
+	font-weight: 500;
+	font-style: normal;
+}
+ 
+@font-face {
+	font-family: 'Open Sans';
+	src: url('../fonts/opensans/OpenSans-SemiboldItalic.ttf') format('truetype');
+	font-weight: 500;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Open Sans';
+	src: url('../fonts/opensans/OpenSans-Bold.ttf') format('truetype');
+	font-weight: 700;
+	font-style: normal;
+}
+ 
+@font-face {
+	font-family: 'Open Sans';
+	src: url('../fonts/opensans/OpenSans-BoldItalic.ttf') format('truetype');
+	font-weight: 700;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Open Sans';
+	src: url('../fonts/opensans/OpenSans-ExtraBold.ttf') format('truetype');
+	font-weight: 900;
+	font-style: normal;
+}
+ 
+@font-face {
+	font-family: 'Open Sans';
+	src: url('../fonts/opensans/OpenSans-ExtraBoldItalic.ttf') format('truetype');
+	font-weight: 900;
+	font-style: italic;
+}
+
+/**
+ * Myriad Pro
+ * 
+ */
+@font-face {
+	font-family: 'Myriad Pro';
+	src: url('../fonts/myriad-pro/MyriadPro-Light.ttf') format('truetype');
+	font-weight: 300;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Myriad Pro';
+	src: url('../fonts/myriad-pro/MyriadPro-Regular.ttf') format('truetype');
+	font-weight: 400;
+	font-style: normal;
+}
+ 
+@font-face {
+	font-family: 'Myriad Pro';
+	src: url('../fonts/myriad-pro/MyriadPro-It.ttf') format('truetype');
+	font-weight: 400;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Myriad Pro';
+	src: url('../fonts/myriad-pro/MyriadPro-Semibold.ttf') format('truetype');
+	font-weight: 500;
+	font-style: normal;
+}
+ 
+@font-face {
+	font-family: 'Myriad Pro';
+	src: url('../fonts/myriad-pro/MyriadPro-SemiboldIt.ttf') format('truetype');
+	font-weight: 500;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Myriad Pro';
+	src: url('../fonts/myriad-pro/MyriadPro-Bold.ttf') format('truetype');
+	font-weight: 700;
+	font-style: normal;
+}
+ 
+@font-face {
+	font-family: 'Myriad Pro';
+	src: url('../fonts/myriad-pro/MyriadPro-BoldIt.ttf') format('truetype');
+	font-weight: 700;
+	font-style: italic;
+}
+
+/**
+ * Moderne Sans
+ * 
+ */
+@font-face {
+    font-family: 'Moderne Sans';
+    src: url('../fonts/moderne-sans/MODERNE SANS.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+/**
+ * Hammersmith One
+ * 
+ */
+@font-face {
+    font-family: 'Hammersmith One';
+    src: url('../fonts/hammersmithone/HammersmithOne-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}

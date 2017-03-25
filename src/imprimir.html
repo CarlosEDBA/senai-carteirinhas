@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Imprimir | Gerador de Carteirinhas - SENAI</title>
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="css/fonts.css">
+	<link rel="stylesheet" type="text/css" href="css/buttons.css">
+	<link rel="stylesheet" type="text/css" href="css/imprimir.css">
+</head>
+<body>
+	<div class="wrapper">
+		<page size="A4" class="carteirinhas">	
+			<!--<div class="carteirinha"></div>-->
+		</page>
+		<div class="actions">
+			<button class="btn btn-imprimir btn-beta btn-normal btn-dark">Imprimir</button>
+		</div>
+	</div>
+
+	<script type="text/javascript" src="js/Object.observe.poly.js"></script>
+	<script type="text/javascript" src="js/jquery-2.2.4.min.js"></script>
+	<script type="text/javascript" src="js/JsBarcode.all.min.js"></script>
+	<script type="text/javascript" src="js/Carteirinhas.js"></script>
+	<script type="text/javascript" src="js/Carteirinhas.Utils.js"></script>
+	<script type="text/javascript" src="js/Carteirinhas.Data.js"></script>
+	<script type="text/javascript" src="js/Carteirinhas.Imprimir.js"></script>
+	<script type="text/javascript">
+		window.onload = function () {
+			var UI = new Carteirinhas();
+			var Imprimir = UI.Imprimir;
+			Imprimir.init();
+		};
+	</script>
+</body>
+</html>

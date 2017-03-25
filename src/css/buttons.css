@@ -1,0 +1,121 @@
+.btn {
+	cursor: pointer;
+	display: block;
+	position: relative;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #000;
+	border: none;
+	font-family: 'Roboto', sans-serif;
+}
+
+.btn.btn-small {
+	padding: 5px 10px 5px 10px;
+}
+
+.btn.btn-normal {
+	padding: 10px 15px 10px 15px;
+}
+
+.btn.btn-wide {
+	padding: 10px 25px 10px 25px;
+}
+
+.btn-dark {
+	color: #000;
+}
+
+.btn-light {
+	color: #fff;
+}
+
+.btn-alpha {
+	background-color: transparent;
+	border-width: 1px;
+	border-style: solid;
+	transition: all 0.16s ease-in;
+	-webkit-transition: all 0.16s ease-in;
+}
+
+.btn-alpha.btn-dark:hover {
+	color: #fff;
+	background-color: #000;
+}
+
+.btn-alpha.btn-light:hover {
+	color: #000;
+	background-color: #fff;
+}
+
+.btn-beta {
+	background-color: transparent;
+	border-radius: 2px;
+}
+
+.btn-beta.btn-dark:hover {
+	background-color: rgba(0, 0, 0, 0.1);
+}
+
+.btn-beta.btn-light:hover {
+	background-color: rgba(255, 255, 255, 0.5);
+}
+
+.btn-gamma {
+	width: auto;
+	padding: 10px 50px 10px 50px;
+	font-weight: 600;
+	background-color: transparent;
+	border: 3px solid #000;
+	border-radius: 25px;
+	transition: all 0.16s ease-in;
+	-webkit-transition: all 0.16s ease-in;
+}
+
+.btn-gamma.btn-dark {
+	color: #000;
+}
+
+.btn-gamma.btn-dark:hover {
+	color: #fff;
+	background-color: #000;
+}
+
+.btn-delta {
+	background-color: transparent;
+	border: none;
+}
+
+.btn-delta.btn-dark:hover {
+	color: #fff;
+}
+
+.btn-delta.btn-light:hover {
+	color: #000;
+}
+
+.btn-kappa {
+	width: auto;
+	padding: 10px 50px 10px 50px;
+	font-weight: 600;
+	border-radius: 25px;
+	transition: all 0.16s ease-in;
+	-webkit-transition: all 0.16s ease-in;
+}
+
+.btn-kappa.btn-light {
+	color: #000;
+	background-color: #fff;
+	border: 2px solid #fff;
+}
+
+.btn-kappa.btn-light:hover {
+	color: #fff;
+	background-color: #000;
+	border: 2px solid #000;
+}
+
+
+
+
+
+

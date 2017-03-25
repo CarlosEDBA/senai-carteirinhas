@@ -1,0 +1,1 @@
+var Carteirinhas = window.Carteirinhas;
