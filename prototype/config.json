@@ -1,0 +1,9 @@
+{
+	"name": "carteirinhas",
+	"version": "1.0.0",
+	"description": "",
+	"trans": {
+		"input": "sample",
+		"output": "output"
+	}
+}
