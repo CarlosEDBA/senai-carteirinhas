@@ -1,0 +1,10 @@
+# Gerador de Carteirinhas - SENAI
+
+O programa procura os dados em colunas e linhas pré-definidas de tabelas no formato
+Microsoft Excel (.xls, .xlsx). Caso ocorra erro "Planilha Inválida." certifique-se
+que as colunas e linhas batem as dos modelos disponibilizados.
+
+
+// Desenvolvido por Carlos Eduardo
+// carlosedba@outlook.com
+
