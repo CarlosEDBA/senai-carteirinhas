@@ -58,7 +58,7 @@ Main.openGerarWindow = function () {
 
 			Windows.Gerar = new BrowserWindow({
 				width: 465,
-				height: 475,
+				height: 385,
 				useContentSize: true,
 				fullscreen: false,
 				autoHideMenuBar: true,

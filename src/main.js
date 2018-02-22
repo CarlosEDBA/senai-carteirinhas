@@ -60,14 +60,14 @@ function processExcelColaboradores (event, file) {
 function createWindow () {
 	CARTEIRINHAS_MAIN = new BrowserWindow({
 		width: 465,
-		height: 465,
+		height: 410,
 		minWidth: 465,
-		minHeight: 465
+		minHeight: 410
 	})
 	CARTEIRINHAS_MAIN.setTitle('Gerador de Carteirinhas - SENAI')
 	CARTEIRINHAS_MAIN.setMenu(null)
 	CARTEIRINHAS_MAIN.loadURL('file://' + __dirname + '/index.html')
-	//CARTEIRINHAS_MAIN.webContents.openDevTools()
+	CARTEIRINHAS_MAIN.webContents.openDevTools()
 	//CARTEIRINHAS_MAIN.webContents.send('alunos', getAlunos())
 	ipcMain.on('processExcelAlunos', processExcelAlunos)
 	ipcMain.on('processExcelColaboradores', processExcelColaboradores)
