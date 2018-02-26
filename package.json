@@ -1,11 +1,11 @@
 {
   "name": "senai-carteirinhas",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Gerador de carteirinhas desenvolvido para o SENAI Boqueirão.",
   "main": "src/main.js",
   "scripts": {
     "start": "electron src/main.js",
-    "build": "electron-packager . \"Gerador de Carteirinhas - SENAI\" --platform=win32 --arch=all --asar=true --app-version=2.0.0 --app-copyright=\"Copyright (C) 2015 CarlosEDBA Softwares. All rights reserved.\" --version-string.CompanyName=\"CarlosEDBA Softwares.\" --version-string.FileDescription=\"Gerador de Carteirinhas - SENAI\" --version-string.ProductName=\"Gerador de Carteirinhas - SENAI\" --version-string.InternalName=\"MagicalCards\" -overwrite --electron-version=\"1.2.3\" --ignore=\"outros\" && move \"Gerador de Carteirinhas - SENAI-win32-ia32\" dist && move \"Gerador de Carteirinhas - SENAI-win32-x64\" dist"
+    "build": "electron-packager . \"Gerador de Carteirinhas - Sistema Fiep\" --platform=win32 --arch=all --asar=true --app-version=2.0.1 --app-copyright=\"Copyright (C) 2015 CarlosEDBA Softwares. All rights reserved.\" --version-string.CompanyName=\"CarlosEDBA Softwares.\" --version-string.FileDescription=\"Gerador de Carteirinhas - Sistema Fiep\" --version-string.ProductName=\"Gerador de Carteirinhas - Sistema Fiep\" --version-string.InternalName=\"MagicalCards\" -overwrite --electron-version=\"1.2.3\" --ignore=\"outros\" && move \"Gerador de Carteirinhas - Sistema Fiep-win32-ia32\" dist && move \"Gerador de Carteirinhas - Sistema Fiep-win32-x64\" dist"
   },
   "keywords": [
     "SENAI",
@@ -13,7 +13,7 @@
     "Gerador",
     "Carteirinhas"
   ],
-  "author": "Carlos Eduardo (carlosedba@outlook.com)",
+  "author": "Sistema Federação das Indústrias do Estado do Paraná",
   "license": "CC0-1.0",
   "devDependencies": {
     "electron-prebuilt": "^0.36.0"

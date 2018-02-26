@@ -34,8 +34,10 @@ Imprimir.carteirinhaAluno = function (aluno, ind) {
 
 	var div = document.createElement('div')
 	div.setAttribute('class', 'foto')
-	div.style.backgroundImage = "url('file:///" + directory.replace(/\\/g,"/") + "/" + aluno.codigoDoAluno + ".jpg"
+	div.style.backgroundImage = "url(\"file:///" + directory.replace(/\\/g,"/") + "/" + aluno.codigoDoAluno + ".jpg\")"
 	carteirinha.appendChild(div)
+
+	console.log("url('file:///" + directory.replace(/\\/g,"/") + "/" + aluno.codigoDoAluno + ".jpg")
 
 	var dados = document.createElement('div')
 	dados.setAttribute('class', 'dados')
@@ -95,19 +97,23 @@ Imprimir.carteirinhaAluno = function (aluno, ind) {
 
 	dados.appendChild(div)
 
+	/*
 	var canvas = document.createElement('canvas')
 	canvas.setAttribute('class', 'barcode')
 	JsBarcode(canvas, aluno.codigoDoAluno, {
-		width: 25,
-		height: 500,
+		width: 30,
+		height: 400,
 		textAlign: 'center',
 		textPosition: 'bottom',
 		textMargin: 2,
-		fontSize: 125,
-		margin: 10
+		fontSize: 115,
+		margin: 10,
+		lineColor: '#000',
+		background: 'transparent',
 	})
 
 	carteirinha.appendChild(canvas)
+	*/
 	carteirinha.appendChild(dados)
 	carteirinhas.appendChild(carteirinha)
 }

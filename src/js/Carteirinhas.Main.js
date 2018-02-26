@@ -60,7 +60,9 @@ Main.openGerarWindow = function () {
 				width: 465,
 				height: 385,
 				useContentSize: true,
-				fullscreen: false,
+			    fullscreen: false,
+			    maximizable: false,
+			    resizable: false,
 				autoHideMenuBar: true,
 				enableLargerThanScreen: true
 			})
